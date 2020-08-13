@@ -2,7 +2,7 @@
 
 $host = "mysql:host=localhost;dbname=desafiodh;port=3306";
 $user = "root";
-$pass = "Porquinho24";
+$pass = "";
 
 try {
     $db = new PDO($host, $user, $pass);
